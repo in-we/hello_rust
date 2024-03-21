@@ -1,0 +1,22 @@
+[package]
+name = "hello_rust"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.9"
+rgb = "0.8.37"
+actix-web = "4.5.1"
+futures = "0.3.30"
+bytes = "1.5.0"
+serde = { version = "1.0.193", features = ["derive"] }
+log = "0.4.20"
+env_logger = { version = "0.11.2", features = [] }
+generic-array = "1.0.0"
+numeric-array = "0.5.2"
+num-traits = "0.2.18"
+typenum = "1.17.0"
+rayon = "1.8.1"
+serde_urlencoded = "0.7.1"
